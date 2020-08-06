@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import './banner.scss';
 import {View, Swiper, SwiperItem, Image} from '@tarojs/components';
-import img1 from './img/img1.jpeg';
-import img2 from './img/img2.jpeg';
-import img3 from './img/img3.jpeg';
-import img4 from './img/img4.jpeg';
-import img5 from './img/img5.jpeg';
+import img1 from './img/img-1.jpg';
+import img2 from './img/img-2.jpg';
+import img3 from './img/img-3.jpg';
+import img4 from './img/img-4.jpg';
+import img5 from './img/img-5.jpg';
 
 export default class Banner extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ export default class Banner extends Component {
             bannerTestData.map((item, index) => {
               return (
                 <SwiperItem key={index}>
-                  <Image style={{width: '100%'}} src={item.img}/>
+                  <Image style={{width: '100%', height: '100%'}} src={item.img}/>
                 </SwiperItem>
               );
             })
