@@ -1,4 +1,11 @@
 @import "~taro-ui/dist/style/components/grid.scss";
 @import "~taro-ui/dist/style/components/noticebar.scss";
 @import "~taro-ui/dist/style/components/toast.scss";
+@import "~taro-ui/dist/style/components/timeline.scss";
+@import "~taro-ui/dist/style/components/countdown.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
 @import "src/util.scss";
+
+.index{
+  padding-bottom: 80px;
+}

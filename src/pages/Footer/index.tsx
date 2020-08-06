@@ -11,19 +11,19 @@ export default class Footer extends Component<any, any>{
   }
   HomeFun = (e) => {
     e.stopPropagation();
-    Taro.navigateTo({
+    Taro.redirectTo({
       url: '/pages/index/index'
     })
   }
   ContentFun = (e) => {
     e.stopPropagation();
-    Taro.navigateTo({
+    Taro.redirectTo({
       url: '/pages/Content/index'
     })
   }
   MyContentFun = (e) => {
     e.stopPropagation();
-    Taro.navigateTo({
+    Taro.redirectTo({
       url: '/pages/My/index'
     })
   }

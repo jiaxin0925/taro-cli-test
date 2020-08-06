@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { View } from '@tarojs/components'
-import {  AtGrid, AtNoticebar, AtToast } from "taro-ui"
+import { View, ScrollView } from '@tarojs/components'
+import {  AtGrid, AtNoticebar, AtToast, AtTimeline, AtCountdown } from "taro-ui"
 import Banner from '../Banner';
 import Footer from '../Footer';
 import './index.scss'
@@ -43,25 +43,65 @@ export default class Index extends Component {
       })
     }
   }
+  //倒计时回调
+  onTimeUp () {
+    Taro.showToast({
+      title: '时间到',
+      icon: 'success',
+      duration: 2000
+    })
+  }
   render () {
     const {testData, isShowMsg}:any = this.state;
     return (
       <View className='index'>
         <Banner />
         <View>
+          <View className='title-name'>
+            公告栏
+          </View>
           <AtNoticebar marquee className='MT20'>
             二狗子 - 二狗子 ❤️  大胖子 - 大胖子
           </AtNoticebar>
+          <View className='title-name'>
+            卡片
+          </View>
           <AtGrid
             mode='rect'
             className="MT30"
             data={testData}
             onClick={this.curCardContent}
           />
+          <View className='title-name'>
+            时间轴
+          </View>
+          <AtTimeline
+            className="MT20"
+            pending
+            items={[
+              { title: '刷牙洗脸', content: ['大概7:00'], icon: 'check-circle' },
+              { title: '吃早餐', content: ['牛奶+面包','大概7:20吃早点'], icon: 'clock' },
+              { title: '上班', content: ['查看邮件', '写PPT','写代码','提交git', '发送PPT给领导', '7:30出门'], icon: 'clock' },
+              { title: '睡觉', content: ['不超过23:00'], icon: 'clock' }
+            ]}
+          >
+          </AtTimeline>
+          <View className='title-name'>
+            倒计时
+          </View>
+          <AtCountdown
+            className="MT20"
+            isShowDay
+            day={((1997 + 1995) * 9)}
+            hours={0}
+            minutes={0}
+            seconds={0}
+            onTimeUp={this.onTimeUp.bind(this)}
+          />
           <AtToast isOpened={isShowMsg} text="功能开发中" >功能开发中</AtToast>
         </View>
         <Footer />
       </View>
-    )
+  )
   }
 }

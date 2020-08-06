@@ -1,0 +1,10 @@
+@import "~taro-ui/dist/style/components/tabs.scss";
+@import "~taro-ui/dist/style/components/float-layout.scss";
+@import "src/util.scss";
+.curBtn{
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+}

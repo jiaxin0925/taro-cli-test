@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d99a32-aac2-4a92-abc4-03fbb364ccfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Content/content.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Content/content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Content/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/My/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/My/my.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/My/my.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mock/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Banner/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Content/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Content/content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Content/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Footer/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Footer/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +54,17 @@
       <updated>1596617844981</updated>
       <workItem from="1596617846153" duration="2000" />
       <workItem from="1596617862600" duration="3404000" />
-      <workItem from="1596675110164" duration="5029000" />
+      <workItem from="1596675110164" duration="10600000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596700470255">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="304" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.945@0.23.1680.945" timestamp="1596700470255" />
   </component>
 </project>

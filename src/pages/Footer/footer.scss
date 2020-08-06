@@ -6,8 +6,9 @@
   line-height: 80px;
   background: skyblue;
   color: #ffffff;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  z-index: 99;
   view{
     text-align: center;
     border-right: 1px solid #cccccc;
