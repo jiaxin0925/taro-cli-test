@@ -1,0 +1,30 @@
+@import "~taro-ui/dist/style/components/avatar.scss";
+@import "~taro-ui/dist/style/components/list.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+
+.My-Content{
+  background: #f8f8f8;
+  height: 100%;
+  padding-bottom: 80px;
+  .my-header{
+    background: skyblue;
+    height: 300px;
+    display: flex;
+    padding-left: 45px;
+    align-items: center;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    .user-Img{
+      margin-right: 20px;
+    }
+  }
+  .my-content{
+    width: 90%;
+    text-align: center;
+    margin-left: 37px;
+    margin-top: -50px;
+    border: 1px solid #cccccc;
+    background: #f8f8f8;
+  }
+}
+

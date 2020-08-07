@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d99a32-aac2-4a92-abc4-03fbb364ccfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/My/UserInfo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/My/UserInfo/userinfo.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/My/UserInfo/userinfo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Content/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Content/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Content/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Footer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/My/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/My/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/My/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/My/my.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,8 @@
       <updated>1596617844981</updated>
       <workItem from="1596617846153" duration="2000" />
       <workItem from="1596617862600" duration="3404000" />
-      <workItem from="1596675110164" duration="10600000" />
+      <workItem from="1596675110164" duration="10756000" />
+      <workItem from="1596762052024" duration="4374000" />
     </task>
     <servers />
   </component>

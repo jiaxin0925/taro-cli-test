@@ -3,6 +3,7 @@ export default {
     'pages/index/index',
     'pages/Content/index',
     'pages/My/index',
+    'pages/My/UserInfo/index',
   ],
   window: {
     backgroundTextStyle: 'light',
