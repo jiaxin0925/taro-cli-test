@@ -9,7 +9,7 @@ export default class UserInfo extends Component<any, any>{
   render() {
     return(
       <View>
-        我是用户信息模块
+        我是用户信息模块,二狗子的
       </View>
     )
   }

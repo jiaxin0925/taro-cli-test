@@ -14,12 +14,12 @@ export default class My extends Component<any, any>{
       userName: '',
     };
   }
-  //负责把这个搞出俩
+  //负责把这个搞来， 哼知道了
   // 点击事件执行的时候要让用户跳到新的页面
   setUsetInfo = (e) => {
     e.stopPropagation();
     Taro.redirectTo({
-      url: 'pages/My/UserInfo/index',
+      url: '/pages/My/UserInfo/index',
     })
   }
   render() {
