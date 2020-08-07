@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import Taro from '@tarojs/taro';
+import React, { Component, useState} from 'react';
 import {View} from '@tarojs/components';
 import { AtAvatar, AtList, AtListItem } from 'taro-ui';
-import Taro from '@tarojs/taro';
 import Footer from '../Footer';
 import img1 from '../../assets/image/user-icon1.jpg';
 import './my.scss';
@@ -19,7 +19,7 @@ export default class My extends Component<any, any>{
   setUsetInfo = (e) => {
     e.stopPropagation();
     Taro.redirectTo({
-      url: '/pages/My/UserInfo/index',
+      url: '/pages/My/UserInfo/index?blogMy=' + '2',
     })
   }
   render() {
