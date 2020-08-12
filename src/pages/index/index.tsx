@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { View, ScrollView } from '@tarojs/components'
-import {  AtGrid, AtNoticebar, AtToast, AtTimeline, AtCountdown } from "taro-ui"
+import {  AtGrid, AtNoticebar, AtToast, AtTimeline, AtCountdown , AtButton } from "taro-ui"
 import Banner from '../Banner';
 import Footer from '../Footer';
 import './index.scss'
