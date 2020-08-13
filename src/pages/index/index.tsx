@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { View, ScrollView } from '@tarojs/components'
-import {  AtGrid, AtNoticebar, AtToast, AtTimeline, AtCountdown , AtButton } from "taro-ui"
+import Taro from '@tarojs/taro';
+import { View } from '@tarojs/components'
+import { AtGrid, AtNoticebar, AtToast, AtTimeline, AtCountdown, AtSearchBar } from "taro-ui"
 import Banner from '../Banner';
 import Footer from '../Footer';
 import './index.scss'
@@ -23,8 +24,16 @@ export default class Index extends Component {
           value: '手机馆'
         }
       ],
-      isShowMsg: false
+      isShowMsg: false,
+      value: '',// 搜索框value值
+      fixed: true, // 搜索框是否固定顶部true： 固定顶部
     }
+  }
+  onChange(value, e){
+    console.log('eee', e)
+    this.setState({
+      value: value
+    })
   }
   componentWillMount () { }
 
@@ -55,6 +64,11 @@ export default class Index extends Component {
     const {testData, isShowMsg}:any = this.state;
     return (
       <View className='index'>
+        <AtSearchBar
+          fixed={this.state.fixed}
+          value={this.state.value}
+          onChange={this.onChange.bind(this)}
+        />
         <Banner />
         <View>
           <View className='title-name'>

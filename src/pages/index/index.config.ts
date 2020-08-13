@@ -1,3 +1,3 @@
 export default {
-  navigationBarTitleText: '首页'
+  navigationBarTitleText: '京东购物'
 }
