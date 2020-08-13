@@ -27,12 +27,21 @@ export default class Footer extends Component<any, any>{
       url: '/pages/My/index'
     })
   }
+  recommended(e){
+    // e.stopP
+  }
+  shoppingCart(e){
+
+  }
   render() {
     return(
       <View className='Footer'>
         <View className='at-row'>
           <View className='at-col' onClick={this.HomeFun}>首页</View>
-          <View className='at-col' onClick={this.ContentFun}>内容</View>
+          <View className='at-col' onClick={this.ContentFun}>分类</View>
+          <View className='at-col' onClick={this.recommended}>推荐</View>
+          <View className='at-col' onClick={this.shoppingCart}>购物车</View>
+
           <View className='at-col' onClick={this.MyContentFun}>我的</View>
         </View>
       </View>
