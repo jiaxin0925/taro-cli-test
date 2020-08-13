@@ -1,0 +1,13 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+.invoice{
+  width: 100%;
+  align-items: center;
+  .at-col{
+    font-size: 0.6rem;
+    background: blueviolet;
+    color: #ffffff;
+    padding: 0.3rem 0;
+    text-align: center;
+  }
+}

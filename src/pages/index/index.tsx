@@ -4,6 +4,7 @@ import { View } from '@tarojs/components'
 import { AtGrid, AtNoticebar, AtToast, AtTimeline, AtCountdown, AtSearchBar } from "taro-ui"
 import Banner from '../Banner';
 import Footer from '../Footer';
+import  Invoice  from "./invoice";
 import './index.scss'
 
 export default class Index extends Component {
@@ -70,6 +71,7 @@ export default class Index extends Component {
           onChange={this.onChange.bind(this)}
         />
         <Banner />
+        <Invoice />
         <View>
           <View className='title-name'>
             公告栏
