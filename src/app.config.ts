@@ -1,6 +1,8 @@
 export default {
   pages: [
     'pages/index/index',
+    'pages/Recommended/index',
+    'pages/shoppingCar/index',
     'pages/Content/index',
     'pages/My/index',
     'pages/My/UserInfo/index',

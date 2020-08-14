@@ -28,10 +28,16 @@ export default class Footer extends Component<any, any>{
     })
   }
   recommended(e){
-    // e.stopP
+    e.stopPropagation();
+    Taro.redirectTo({
+      url: '/pages/Recommended/index'
+    })
   }
   shoppingCart(e){
-
+    e.stopPropagation();
+    Taro.redirectTo({
+      url: '/pages/shoppingCar/index'
+    })
   }
   render() {
     return(
