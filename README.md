@@ -43,3 +43,9 @@ yarn run dev:weapp等 在package.json 中scripts查看对应的命令
 ## constructor(props) {super(props); this.state = {}; }
 super关键字，它指代父类的实例（即父类的this对象）。子类必须在constructor方法中调用super方法，否则新建实例时会报错。这是因为子类没有自己的this对象，而是继承父类的this对象，然后对其进行加工。如果不调用super方法，子类就得不到this对象。
 
+## 问题
+1： vscode为什么会自动换行一个单词没写完有时候就换行了（主要是一个新的文件要写代码的时候）
+2：taro-ui中 AtCheckBox没有全选和反选， 只能一个一个选择（可以多选）
+3：文件name.config.ts中的：export default {
+  navigationBarTitleText: '购物车'
+}不生效
