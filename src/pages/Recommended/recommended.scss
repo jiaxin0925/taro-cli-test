@@ -1,0 +1,20 @@
+
+.recommendde .at-tabs--scroll .at-tabs__header {
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  position: fixed;
+  top: 75px;
+  z-index: 10000;
+  background: rgb(152, 220, 226);
+}
+.recommendde .at-tabs__body {
+  width: 100%;
+  white-space: nowrap;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  will-change: transform, left, top;
+  overflow: visible;
+  margin-top: 160px;
+}
+

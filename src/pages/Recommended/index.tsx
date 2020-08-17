@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Footer from '../Footer';
 import Select from './select/index'
 import { AtSearchBar, AtTabs, AtTabsPane  } from 'taro-ui'
+import './recommended.scss'
 export default class Recommended extends Component<any, any>{
   constructor(props) {
     super(props)
@@ -22,10 +23,11 @@ export default class Recommended extends Component<any, any>{
   }
   render(){
     return (
-      <View>
+      <View className="recommendde">
         <AtSearchBar
-          value = {this.state.value}
-          onChange = {this.onChange.bind(this)}
+          fixed={true}
+          value={this.state.value}
+          onChange={this.onChange.bind(this)}
         />
         <AtTabs
           animated={false}
@@ -42,7 +44,7 @@ export default class Recommended extends Component<any, any>{
             { title: '家居' },
             { title: '数码' },
             { title: '母婴' },
-            { title: '手机' }          ]}
+            { title: '手机' }]}
           onClick={this.handleClick.bind(this)}>
           <AtTabsPane current={this.state.current} index={0} >
             <View><Select /></View>
