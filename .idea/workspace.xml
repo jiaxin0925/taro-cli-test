@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d99a32-aac2-4a92-abc4-03fbb364ccfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/knowledge.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Content/content.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Content/content.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Content/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Content/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Content/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Footer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/My/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/My/my.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shoppingCar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shoppingCar/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shoppingCar/shoppingCar.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shoppingCar/shoppingCar.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +56,7 @@
       <workItem from="1597220191977" duration="965000" />
       <workItem from="1597280565604" duration="35000" />
       <workItem from="1597501502779" duration="1053000" />
-      <workItem from="1597719026122" duration="2589000" />
+      <workItem from="1597719026122" duration="3201000" />
     </task>
     <servers />
   </component>
