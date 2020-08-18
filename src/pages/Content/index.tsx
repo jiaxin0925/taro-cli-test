@@ -8,6 +8,7 @@ import img3 from '../../assets/image/user-icon3.jpg';
 import img4 from '../../assets/image/user-icon4.jpg';
 import img5 from '../../assets/image/user-icon5.jpg';
 import './content.scss';
+import Taro from '@tarojs/taro';
 
 export default class Content extends Component<any, any>{
   constructor(props) {
@@ -24,6 +25,12 @@ export default class Content extends Component<any, any>{
       ]
     };
   }
+  componentDidMount(): void {
+    Taro.setNavigationBarTitle({
+      title: "分类"
+    })
+  }
+
   handleClick (value) {
     this.setState({
       current: value

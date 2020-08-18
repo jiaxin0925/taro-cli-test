@@ -52,24 +52,29 @@ export default class shoppingCar extends Component<any, any>{
     })
   };
   handleClick(value) {
-    console.log(value.length)
-    const {checkboxOption, allCheck } = this.state;
-    if(value) {
+    const {checkboxOption, isAllCheck } = this.state;
+    console.log(isAllCheck)
+    if(isAllCheck === false) {
+      const Arr = [];
+      checkboxOption.map((item) =>{
+        if (!item.disabled) {
+          Arr.push(item.value)
+        }
+      })
+      this.setState({
+        checkedList: Arr,
+        isAllCheck: true,
+        allCheck: ['all'],
+      })
+    }else {
       this.setState({
         allCheck: [],
         checkedList: [],
+        isAllCheck: false
       })
+
     }
-    this.setState({
-      allCheck: ['all']
-    })
-    const Arr = [];
-    checkboxOption.map((item) =>{
-      Arr.push(item.value)
-    })
-    this.setState({
-      checkedList: Arr
-    })
+
   };
   render(){
     return(

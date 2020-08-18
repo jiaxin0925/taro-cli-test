@@ -4,12 +4,18 @@ import Footer from '../Footer';
 import Select from './select/index'
 import { AtSearchBar, AtTabs, AtTabsPane  } from 'taro-ui'
 import './recommended.scss'
+import Taro from '@tarojs/taro';
 export default class Recommended extends Component<any, any>{
   constructor(props) {
     super(props)
     this.state = {
       value: '',
       current: 0    }
+  }
+  componentDidMount(): void {
+    Taro.setNavigationBarTitle({
+      title: "推荐"
+    })
   }
   onChange(value){
     this.setState({
