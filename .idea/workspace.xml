@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d99a32-aac2-4a92-abc4-03fbb364ccfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/My/UserInfo/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/My/UserInfo/userinfo.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/My/UserInfo/userinfo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/My/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/My/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Content/content.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Content/content.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Content/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Content/content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Content/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Footer/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/My/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/My/my.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shoppingCar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shoppingCar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shoppingCar/shoppingCar.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shoppingCar/shoppingCar.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -51,7 +61,13 @@
       <workItem from="1596617846153" duration="2000" />
       <workItem from="1596617862600" duration="3404000" />
       <workItem from="1596675110164" duration="10756000" />
-      <workItem from="1596762052024" duration="4374000" />
+      <workItem from="1596762052024" duration="9785000" />
+      <workItem from="1597126193395" duration="429000" />
+      <workItem from="1597126710839" duration="14000" />
+      <workItem from="1597220191977" duration="965000" />
+      <workItem from="1597280565604" duration="35000" />
+      <workItem from="1597501502779" duration="1053000" />
+      <workItem from="1597719026122" duration="2589000" />
     </task>
     <servers />
   </component>
@@ -63,5 +79,17 @@
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state x="304" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.945@0.23.1680.945" timestamp="1596700470255" />
+    <state x="427" y="68" key="CommitChangelistDialog2" timestamp="1596782274043">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="427" y="68" key="CommitChangelistDialog2/0.23.1680.945@0.23.1680.945" timestamp="1596782274043" />
+    <state x="349" y="134" key="SettingsEditor" timestamp="1597720925964">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="349" y="134" key="SettingsEditor/0.23.1680.945@0.23.1680.945" timestamp="1597720925964" />
+    <state x="540" y="252" width="600" height="486" key="find.popup" timestamp="1597501634795">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="540" y="252" width="600" height="486" key="find.popup/0.23.1680.945@0.23.1680.945" timestamp="1597501634795" />
   </component>
 </project>

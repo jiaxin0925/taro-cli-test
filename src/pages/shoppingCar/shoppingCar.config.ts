@@ -1,3 +1,3 @@
 export default {
-  navigationBarTitleText: '购物车'
+  navigationBarTitleText: '购物车111'
 }

@@ -1,6 +1,7 @@
 
 import React, { Component} from 'react'
-import {View, Form} from '@tarojs/components'
+import Taro, { Config } from "@tarojs/taro"
+import {View, Checkbox} from '@tarojs/components'
 import Footer from '../Footer';
 import { AtCheckbox } from 'taro-ui'
 import './shoppingCar.scss'
@@ -8,6 +9,11 @@ export default class shoppingCar extends Component<any, any>{
   constructor(props) {
     super(props)
     this.state = {
+      allOptions: [
+        {value: 'all', label: '全选'}
+      ],
+      allCheck: [],
+      isAllCheck: false,
       checkedList: ['list1'],
       checkboxOption: [
         {
@@ -34,11 +40,37 @@ export default class shoppingCar extends Component<any, any>{
     }
 
   }
+  componentDidMount(): void {
+    Taro.setNavigationBarTitle({
+      title: "购物车"
+    })
+  }
+
   handleChange(value){
     this.setState({
       checkedList: value
     })
-  }
+  };
+  handleClick(value) {
+    console.log(value.length)
+    const {checkboxOption, allCheck } = this.state;
+    if(value) {
+      this.setState({
+        allCheck: [],
+        checkedList: [],
+      })
+    }
+    this.setState({
+      allCheck: ['all']
+    })
+    const Arr = [];
+    checkboxOption.map((item) =>{
+      Arr.push(item.value)
+    })
+    this.setState({
+      checkedList: Arr
+    })
+  };
   render(){
     return(
       <View>
@@ -48,6 +80,11 @@ export default class shoppingCar extends Component<any, any>{
           onChange={this.handleChange.bind(this)}
         >
           全选</AtCheckbox>
+        <AtCheckbox
+          options={this.state.allOptions}
+          onChange={this.handleClick.bind(this)}
+          selectedList={this.state.allCheck}
+        />
         <Footer />
       </View>
     )

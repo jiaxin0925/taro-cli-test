@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
-import {View, Button} from '@tarojs/components';
+import {View, Button, Swiper, SwiperItem, Image} from '@tarojs/components';
 import { AtTabs, AtTabsPane, AtFloatLayout } from 'taro-ui'
 import Footer from '../Footer';
+import img1 from '../../assets/image/user-icon1.jpg';
+import img2 from '../../assets/image/user-icon6.jpg';
+import img3 from '../../assets/image/user-icon3.jpg';
+import img4 from '../../assets/image/user-icon4.jpg';
+import img5 from '../../assets/image/user-icon5.jpg';
 import './content.scss';
 
 export default class Content extends Component<any, any>{
@@ -10,6 +15,13 @@ export default class Content extends Component<any, any>{
     this.state = {
       current: 0,
       isShow: false,
+      testBannerData: [
+        {id: 1, img: img1},
+        {id: 2, img: img2},
+        {id: 3, img: img3},
+        {id: 4, img: img4},
+        {id: 5, img: img5},
+      ]
     };
   }
   handleClick (value) {
@@ -29,9 +41,27 @@ export default class Content extends Component<any, any>{
   }
   render() {
     const tabList = [{ title: '标签页1' }, { title: '标签页2' }, { title: '标签页3' }];
-    const {isShow} :any = this.state;
+    const {isShow, testBannerData} :any = this.state;
     return(
       <View>
+        <View>
+          <Swiper
+            indicatorDots={true}
+            autoplay={true}
+            interval={3000}
+          >
+            {
+              testBannerData.map((item, index) => {
+                return(
+                  <SwiperItem key={index}>
+                    <Image style={{width: '100%', height: '100%'}} src={item.img} />
+                  </SwiperItem>
+                )
+              })
+            }
+
+          </Swiper>
+        </View>
         <View className="title-name">
           Tab栏
         </View>
