@@ -1,8 +1,7 @@
 @import "~taro-ui/dist/style/components/flex.scss";
 .Footer{
   width: 100%;
-  height: 80px;
-  line-height: 80px;
+  height: 40px;
   background: skyblue;
   color: #ffffff;
   position: fixed;
@@ -10,7 +9,6 @@
   z-index: 99;
   view{
     text-align: center;
-    border-right: 1px solid #cccccc;
   }
   view:last-child{
     border: 0;

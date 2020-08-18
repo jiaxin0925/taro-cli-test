@@ -32,9 +32,24 @@ export default class Footer extends Component<any, any>{
         current: 2
       })
       Taro.redirectTo({
+        url: '/pages/Recommended/index'
+      })
+    }else if (e === 3) {
+      this.setState({
+        current: 3
+      })
+      Taro.redirectTo({
+        url: '/pages/shoppingCar/index'
+      })
+    }else if (e === 4) {
+      this.setState({
+        current: 4
+      })
+      Taro.redirectTo({
         url: '/pages/My/index'
       })
     }
+
   }
   recommended(e){
     e.stopPropagation();
@@ -51,24 +66,26 @@ export default class Footer extends Component<any, any>{
   render() {
     return(
       <View className='Footer'>
-        <View className='at-row'>
-          <View className='at-col' onClick={this.HomeFun}>首页</View>
-          <View className='at-col' onClick={this.ContentFun}>分类</View>
-          <View className='at-col' onClick={this.recommended}>推荐</View>
-          <View className='at-col' onClick={this.shoppingCart}>购物车</View>
-          <View className='at-col' onClick={this.MyContentFun}>我的</View>
-        </View>
-        {/*<AtTabBar*/}
-        {/*  fixed*/}
-        {/*  selectedColor="red"*/}
-        {/*  tabList={[*/}
-        {/*    { title: '首页', iconType: 'bullet-list', text: 'new' },*/}
-        {/*    { title: '内容', iconType: 'camera' },*/}
-        {/*    { title: '我的', iconType: 'folder', text: '100', max: 99 }*/}
-        {/*  ]}*/}
-        {/*  onClick={this.handleClick.bind(this)}*/}
-        {/*  current={this.state.current}*/}
-        {/*/>*/}
+        {/*<View className='at-row'>*/}
+        {/*  <View className='at-col' onClick={this.HomeFun}>首页</View>*/}
+        {/*  <View className='at-col' onClick={this.ContentFun}>分类</View>*/}
+        {/*  <View className='at-col' onClick={this.recommended}>推荐</View>*/}
+        {/*  <View className='at-col' onClick={this.shoppingCart}>购物车</View>*/}
+        {/*  <View className='at-col' onClick={this.MyContentFun}>我的</View>*/}
+        {/*</View>*/}
+        <AtTabBar
+          fixed
+          selectedColor="red"
+          tabList={[
+            { title: '首页', iconType: 'home', text: 'new' },
+            { title: '分类', iconType: 'menu' },
+            { title: '推荐', iconType: 'tags', text: 'new' },
+            { title: '购物车', iconType: 'shopping-cart'},
+            { title: '我的', iconType: 'user', text: '100', max: 99 }
+          ]}
+          onClick={this.handleClick.bind(this)}
+          current={this.state.current}
+        />
       </View>
 
     )
